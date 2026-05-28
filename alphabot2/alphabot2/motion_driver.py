@@ -1,3 +1,4 @@
+##################################################################_Importations_###################################################################
 import math
 import time
 
@@ -7,7 +8,7 @@ from rclpy.node import Node
 from geometry_msgs.msg import Twist
 from alphabot2_interfaces.msg import Obstacle
 
-import RPi.GPIO as GPIO
+import RPi.GPIO as GPIO #bibliotheque python pour controler les GPIO du Raspberry Pi
 
 """
 AlphaBot2 is equipped with Toshiba TB6612FNG IC dual motor driver.
@@ -17,7 +18,7 @@ Every motor has 3 inputs controlled by the Raspberry Pi:
   - PWMx = PWM, controls motor's speed, up to 100kHz
 REF: https://www.instructables.com/Driving-Small-Motors-With-the-TB6612FNG/
 """
-
+########################################_parametres_#######################################################################
 # Toshiba TB6612FNG / Raspberry Pi GPIO pin mapping
 PWMA_PIN = 6    # L-motor speed PWM
 AIN1_PIN = 12   # L-motor backward
@@ -32,17 +33,18 @@ DEFAULT_MOTORS_PWM_FREQUENCY = 500  # L/R-motor default PWM frequency (experimen
 MOTOR_BRAKE_TIMEOUT_SEC = 2         # after 2 secs of non received cmd_vel msgs, motors will be braked
 SPIN_TIMER_PERIOD_SEC = 0.025       # timer callback period (40 Hz >> 1.5cm run in one period at 0.6 m/s)
 MAX_BRAKING_DURATION_SEC = 0.10     # max duration of the opposite direction motion for braking
-
+#parametres  physique du roboot, utilises pour convertir les cmd_vel en commandes de moteurs
 WHEELS_DIST_M = 0.085                       # 85 mm, distance between wheels
 WHEEL_RADIUS_M = 0.021                      # 21 mm, wheel radius
 MAX_MOTOR_RPM = 750                         # max AlphaBot2 wheel RPM (80 ms for single revolution) if li-ion supplied
                                             # (400 RPM for USB supply)
 RPM_TO_RAD_PER_SEC = 2 * math.pi / 60       # conversion factor from RPM to rad/s
 
+#topics names
 OBSTACLES_TOPIC = "obstacles"
 CMD_VEL_TOPIC = "cmd_vel"
 
-
+##################################_methodes_#######################################################################
 def gpio_init():
     """
     Function that initializes GPIO.

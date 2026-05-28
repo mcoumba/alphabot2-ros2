@@ -1,3 +1,5 @@
+##################################################################_Importations_###################################################################
+
 import rclpy
 from rclpy.node import Node
 
@@ -18,7 +20,7 @@ DR_PIN = 19  # R-sensor output pin
 OBSTACLES_TOPIC = "obstacles"
 SPIN_TIMER_PERIOD_SEC = 0.025  # Timer callback period (40 Hz)
 
-
+#########################################################_Méthodes_####################################################################################################
 def gpio_init():
     """
     Function that initializes GPIO.
