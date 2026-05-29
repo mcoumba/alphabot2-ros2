@@ -50,5 +50,13 @@ La classe IR_obstacle_sensors est utilisée pour lire les données des capteurs 
         self.get_logger().info(action_du_robot)
 
     
-    def main(ord=None)
-:
+    def main(args=None) :
+        rclpy.init(args=args)
+        node=ObstacleAvoidance()
+        rclpy.spin(node)
+        node.destroy_node()
+        rclpy.shutdown()
+
+    if __name__ == '__main__':
+        main()
+
