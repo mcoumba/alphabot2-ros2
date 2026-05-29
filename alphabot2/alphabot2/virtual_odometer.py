@@ -1,16 +1,21 @@
+##################################################################_Importations_###################################################################
+
 import rclpy
 from rclpy.node import Node
 
 from geometry_msgs.msg import Twist
 from alphabot2_interfaces.msg import Obstacle
 
+##################################_paramétres_####################################################################################################
 VIRTUAL_ODOMETRY_TOPIC = "virtual_odometry"
 CMD_VEL_TOPIC = "cmd_vel"
 OBSTACLES_TOPIC = "obstacles"
 SPIN_TIMER_PERIOD_SEC = 0.025   # Timer callback period (40 Hz)
 CMD_VEL_PUB_PERIOD_SEC = 0.025  # cmd_vel publishing period (40 Hz)
 
+#########################################################_Méthodes_####################################################################################################
 
+#estimation virtuelle de la vitesse réelle du robot
 class VirtualOdometer(Node):
     """
     ROS2 node that emulates a virtual odometer since AlphaBot2 doesn't have any odometry oriented sensor.

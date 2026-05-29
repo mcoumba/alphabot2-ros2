@@ -1,11 +1,11 @@
 ##################################################################_Importations_###################################################################
 import rclpy #bibliotheque python pour ROS2
 from rclpy.node import Node
-from geometry_msgs.msg import Twist #type  de message ros pour les commandes de mouvement du robot elle contient v et w
+
 
 #########################################_Classes_#################################################################################################
-#Cette classe est un noeud ROS2 qui publie des commandes de mouvement pour faire avancer ou tourner le robot
-
+#Cette classe est un noeud ROS2 qui publie sa position
+"""
 class Avance(Node):
 
 #####################################_Méthodes_####################################################################################################
@@ -36,3 +36,4 @@ def main(args=None):
 
 if __name__ == '__main__':
     main()
+    """
