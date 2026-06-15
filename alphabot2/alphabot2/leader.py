@@ -2,38 +2,66 @@
 import rclpy #bibliotheque python pour ROS2
 from rclpy.node import Node
 
+from geometry_msgs.msg import Twist
+from geometry_msgs.msg import Pose2D
+import math
 
 #########################################_Classes_#################################################################################################
 #Cette classe est un noeud ROS2 qui publie sa position
-"""
-class Avance(Node):
 
+class Leader(Node):
 #####################################_Méthodes_####################################################################################################
-    #constructeur
+#constructeur
     def __init__(self):
-        super().__init__('robot_avance')
+        super().__init__('robot_leader')
 
-        self.publisher_ = self.create_publisher(Twist,'/cmd_vel',10) #cree un publisher qui publie des messages de type Twist sur le topic /cmd_vel avec une queue de 10 messages
-        timer_period=0.1 #10 Hz la frequence a laquelle le robot publiera les commandes de mouvement
-        self.timer=self.create_timer(timer_period, self.move_robot) #cree un timer qui appelle la méthode move_robot toutes les 0.1 secondes
-    
-    #cette méthode move_robot est appelée toutes  les 0.1sec par le timer et publie les vitesses
-    def move_robot(self):
-        msg=Twist() #cree un message de type Twist pour stocker les commandes de mouvement
-        msg.linear.x  =0.3 #v
-        msg.angular.z =0.0 #w
-    
-        self.publisher_.publish(msg) 
-        self.get_logger().info("Le robot avance avec une vitesse linéaire de"+str(msg.linear.x)+" et une vitesse angulaire de "+str(msg.angular.z)) 
+        self.cmd_vel_pub = self.create_publisher(Twist,'/cmd_vel',10) #cree un publisher qui publie des messages de type Twist sur le topic /cmd_vel avec une queue de 10 messages
+        self.position_pub = self.create_publisher(Pose2D,'/position_leader',10) #cree un publisher qui publie des messages de type Pose2D sur le topic /position_leader avec une queue de 10 messages
 
-#le main est la fonction d'entrée du programme qui initialise ROS2, crée une instance de la classe Avance, et fait tourner le noeud jusqu'à ce qu'il soit arrêté
+        self.dt = 0.1 
+        self.x = 0.0
+        self.y = 0.0
+        self.theta = 0.0
+
+        self.v = 0.2
+        self.w = 0.0
+
+        self.timer = self.create_timer(self.dt,self.timer_callback) 
+
+#cette méthode timer_callback est appelée toutes les 0.1 secondes par le timer et publie les vitesses et la position du robot 
+    def timer_callback(self):
+        #Publie les vitesses du robot
+        vitesses=Twist()
+        vitesses.linear.x=self.v
+        vitesses.angular.z=self.w
+
+        self.cmd_vel_pub.publish(vitesses)
+        self.get_logger().info("Le robot leader publie les vitesses: linear.x = " + str(vitesses.linear.x) + ", angular.z = " + str(vitesses.angular.z))
+
+        #Modéle cinématique du robot
+        self.x += self.v * math.cos(self.theta) * self.dt
+        self.y += self.v * math.sin(self.theta) * self.dt
+        self.theta += self.w * self.dt
+
+        #Publie la position du robot
+        pose = Pose2D()
+        pose.x = self.x
+        pose.y = self.y
+        pose.theta = self.theta
+
+        self.position_pub.publish(pose)
+        self.get_logger().info("Le robot leader publie la position: x = " + str(pose.x) + ", y = " + str(pose.y) + ", theta = " + str(pose.theta))
+
 def main(args=None):
-    rclpy.init(args=args) #initialise ROS2
-    node =Avance() #cree une instance de la classe Avance qui est un noeud ROS2
-    rclpy.spin(node)#fait tourner le noeud jusqu'à ce qu'il soit arrêté
-    node.destroy_node() #detruit le noeud 
-    rclpy.shutdown() #arrete ROS2
+
+    rclpy.init(args=args)
+
+    node = Leader()
+
+    rclpy.spin(node)
+
+    node.destroy_node()
+    rclpy.shutdown()
 
 if __name__ == '__main__':
     main()
-    """
