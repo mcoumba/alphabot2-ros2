@@ -2,7 +2,7 @@ import os
 from glob import glob
 from setuptools import setup
 
-package_name = 'alphabot2'
+package_name = 'alphabot2_follower'
 
 setup(
     name=package_name,
@@ -23,10 +23,11 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'motion_driver = alphabot2.motion_driver:main',
-            'IR_obstacle_sensors = alphabot2.IR_obstacle_sensors:main',
-            'virtual_odometer = alphabot2.virtual_odometer:main',
-            'QR_detector = alphabot2.QR_detector:main',
-        ],
+            'follower = alphabot2_follower.follower:main',
+            'motion_driver = alphabot2_follower.motion_driver:main',
+            'IR_obstacle_sensors = alphabot2_follower.IR_obstacle_sensors:main',
+            'virtual_odometer = alphabot2_follower.virtual_odometer:main',
+            'QR_detector = alphabot2_follower.QR_detector:main',
+                    ],
     },
 )

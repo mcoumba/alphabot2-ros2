@@ -1,0 +1,3 @@
+#pour lancer
+ros2 run alphabot2_leader leader
+ros2 run alphabot2_follower follower
