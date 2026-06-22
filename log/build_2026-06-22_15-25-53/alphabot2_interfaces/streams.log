@@ -1,0 +1,20 @@
+[0.058s] Invoking command in '/home/leader/ros2_ws/build/alphabot2_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/leader/ros2_ws/src/alphabot2-ros2/alphabot2_interfaces -DCMAKE_INSTALL_PREFIX=/home/leader/ros2_ws/install/alphabot2_interfaces
+[1.113s] -- The C compiler identification is GNU 11.4.0
+[1.928s] -- The CXX compiler identification is GNU 11.4.0
+[1.983s] -- Detecting C compiler ABI info
+[2.424s] -- Detecting C compiler ABI info - done
+[2.451s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.455s] -- Detecting C compile features
+[2.458s] -- Detecting C compile features - done
+[2.476s] -- Detecting CXX compiler ABI info
+[2.488s] [0mCMake Error: CMAKE_CXX_COMPILER not set, after EnableLanguage[0m
+[2.491s] [31mCMake Error at /usr/share/cmake-3.22/Modules/CMakeDetermineCompilerABI.cmake:49 (try_compile):
+[2.492s]   Failed to configure test project build system.
+[2.492s] Call Stack (most recent call first):
+[2.493s]   /usr/share/cmake-3.22/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)
+[2.493s]   CMakeLists.txt:2 (project)
+[2.496s] 
+[2.496s] [0m
+[2.497s] -- Configuring incomplete, errors occurred!
+[2.497s] See also "/home/leader/ros2_ws/build/alphabot2_interfaces/CMakeFiles/CMakeOutput.log".
+[2.510s] Invoked command in '/home/leader/ros2_ws/build/alphabot2_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/leader/ros2_ws/src/alphabot2-ros2/alphabot2_interfaces -DCMAKE_INSTALL_PREFIX=/home/leader/ros2_ws/install/alphabot2_interfaces

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "alphabot2_interfaces__rs",
+		"source" : "/home/leader/ros2_ws/build/alphabot2_interfaces/alphabot2_interfaces__rs"
+	}
+}

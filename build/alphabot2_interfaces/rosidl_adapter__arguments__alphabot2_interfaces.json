@@ -1,0 +1,6 @@
+{
+  "package_name": "alphabot2_interfaces",
+  "non_idl_tuples": [
+    "/home/leader/ros2_ws/src/alphabot2-ros2/alphabot2_interfaces:msg/Obstacle.msg"
+  ]
+}

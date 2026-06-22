@@ -1,0 +1,268 @@
+[0.000000] (-) TimerEvent: {}
+[0.008373] (alphabot2_interfaces) JobQueued: {'identifier': 'alphabot2_interfaces', 'dependencies': OrderedDict()}
+[0.014302] (alphabot2) JobQueued: {'identifier': 'alphabot2', 'dependencies': OrderedDict([('alphabot2_interfaces', '/home/leader/ros2_ws/install/alphabot2_interfaces')])}
+[0.014683] (alphabot2_interfaces) JobStarted: {'identifier': 'alphabot2_interfaces'}
+[0.072798] (alphabot2_interfaces) JobProgress: {'identifier': 'alphabot2_interfaces', 'progress': 'cmake'}
+[0.077428] (alphabot2_interfaces) JobProgress: {'identifier': 'alphabot2_interfaces', 'progress': 'build'}
+[0.081462] (alphabot2_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/leader/ros2_ws/build/alphabot2_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/leader/ros2_ws/build/alphabot2_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'leader'), ('SSH_CLIENT', '10.78.23.7 59030 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/leader/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/leader/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/leader'), ('TERM_PROGRAM_VERSION', '1.113.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-53f7f30f-e173-46dd-8dfd-757f866a50db.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/leader/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/leader/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'leader'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/leader/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/leader/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/leader/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'fr_FR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-aab1f15972.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/leader/ros2_ws/build/alphabot2_interfaces'), ('SSH_CONNECTION', '10.78.23.7 59030 10.78.23.14 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099002] (-) TimerEvent: {}
+[0.199741] (-) TimerEvent: {}
+[0.308356] (-) TimerEvent: {}
+[0.412324] (-) TimerEvent: {}
+[0.413573] (alphabot2_interfaces) StdoutLine: {'line': b'[  3%] Built target alphabot2_interfaces__rs\n'}
+[0.440425] (alphabot2_interfaces) StdoutLine: {'line': b'[  6%] Built target alphabot2_interfaces__cpp\n'}
+[0.515303] (-) TimerEvent: {}
+[0.579435] (alphabot2_interfaces) StdoutLine: {'line': b'[ 15%] Built target alphabot2_interfaces__rosidl_generator_c\n'}
+[0.612063] (alphabot2_interfaces) StdoutLine: {'line': b'[ 15%] Built target ament_cmake_python_copy_alphabot2_interfaces\n'}
+[0.616333] (-) TimerEvent: {}
+[0.695849] (alphabot2_interfaces) StdoutLine: {'line': b'[ 25%] Built target alphabot2_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.713146] (alphabot2_interfaces) StdoutLine: {'line': b'[ 34%] Built target alphabot2_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.716595] (-) TimerEvent: {}
+[0.818696] (-) TimerEvent: {}
+[0.834416] (alphabot2_interfaces) StdoutLine: {'line': b'[ 43%] Built target alphabot2_interfaces__rosidl_typesupport_cpp\n'}
+[0.855974] (alphabot2_interfaces) StdoutLine: {'line': b'[ 53%] Built target alphabot2_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.919938] (-) TimerEvent: {}
+[0.955200] (alphabot2_interfaces) StdoutLine: {'line': b'[ 62%] Built target alphabot2_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.994036] (alphabot2_interfaces) StdoutLine: {'line': b'[ 71%] Built target alphabot2_interfaces__rosidl_typesupport_c\n'}
+[1.022498] (-) TimerEvent: {}
+[1.124881] (-) TimerEvent: {}
+[1.185135] (alphabot2_interfaces) StdoutLine: {'line': b'[ 71%] Built target alphabot2_interfaces\n'}
+[1.225311] (-) TimerEvent: {}
+[1.327171] (-) TimerEvent: {}
+[1.331214] (alphabot2_interfaces) StdoutLine: {'line': b'[ 75%] Built target alphabot2_interfaces__py\n'}
+[1.427472] (-) TimerEvent: {}
+[1.531112] (-) TimerEvent: {}
+[1.571745] (alphabot2_interfaces) StdoutLine: {'line': b'[ 81%] Built target alphabot2_interfaces__rosidl_generator_py\n'}
+[1.631447] (-) TimerEvent: {}
+[1.732919] (-) TimerEvent: {}
+[1.779733] (alphabot2_interfaces) StdoutLine: {'line': b'[ 87%] Built target alphabot2_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[1.813886] (alphabot2_interfaces) StdoutLine: {'line': b'[ 93%] Built target alphabot2_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.824972] (alphabot2_interfaces) StdoutLine: {'line': b'[100%] Built target alphabot2_interfaces__rosidl_typesupport_c__pyext\n'}
+[1.833055] (-) TimerEvent: {}
+[1.933784] (-) TimerEvent: {}
+[2.034622] (-) TimerEvent: {}
+[2.135390] (-) TimerEvent: {}
+[2.236110] (-) TimerEvent: {}
+[2.337016] (-) TimerEvent: {}
+[2.438413] (-) TimerEvent: {}
+[2.539421] (-) TimerEvent: {}
+[2.640621] (-) TimerEvent: {}
+[2.689844] (alphabot2_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[2.694511] (alphabot2_interfaces) StdoutLine: {'line': b'writing alphabot2_interfaces.egg-info/PKG-INFO\n'}
+[2.697547] (alphabot2_interfaces) StdoutLine: {'line': b'writing dependency_links to alphabot2_interfaces.egg-info/dependency_links.txt\n'}
+[2.698332] (alphabot2_interfaces) StdoutLine: {'line': b'writing top-level names to alphabot2_interfaces.egg-info/top_level.txt\n'}
+[2.710039] (alphabot2_interfaces) StdoutLine: {'line': b"reading manifest file 'alphabot2_interfaces.egg-info/SOURCES.txt'\n"}
+[2.713440] (alphabot2_interfaces) StdoutLine: {'line': b"writing manifest file 'alphabot2_interfaces.egg-info/SOURCES.txt'\n"}
+[2.740858] (-) TimerEvent: {}
+[2.841896] (-) TimerEvent: {}
+[2.872026] (alphabot2_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_alphabot2_interfaces_egg\n'}
+[2.919299] (alphabot2_interfaces) CommandEnded: {'returncode': 0}
+[2.922374] (alphabot2_interfaces) JobProgress: {'identifier': 'alphabot2_interfaces', 'progress': 'install'}
+[2.942172] (-) TimerEvent: {}
+[2.961147] (alphabot2_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/leader/ros2_ws/build/alphabot2_interfaces'], 'cwd': '/home/leader/ros2_ws/build/alphabot2_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'leader'), ('SSH_CLIENT', '10.78.23.7 59030 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/leader/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/leader/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/leader'), ('TERM_PROGRAM_VERSION', '1.113.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-53f7f30f-e173-46dd-8dfd-757f866a50db.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/leader/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/leader/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'leader'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/leader/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/leader/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/leader/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'fr_FR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-aab1f15972.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/leader/ros2_ws/build/alphabot2_interfaces'), ('SSH_CONNECTION', '10.78.23.7 59030 10.78.23.14 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.990553] (alphabot2_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.993367] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/ament_index/resource_index/rosidl_interfaces/alphabot2_interfaces\n'}
+[2.997534] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/include/alphabot2_interfaces/alphabot2_interfaces\n'}
+[3.000894] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/include/alphabot2_interfaces/alphabot2_interfaces/msg\n'}
+[3.004523] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/include/alphabot2_interfaces/alphabot2_interfaces/msg/obstacle.h\n'}
+[3.007797] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/include/alphabot2_interfaces/alphabot2_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.011038] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/include/alphabot2_interfaces/alphabot2_interfaces/msg/detail\n'}
+[3.014259] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/include/alphabot2_interfaces/alphabot2_interfaces/msg/detail/obstacle__struct.h\n'}
+[3.017372] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/include/alphabot2_interfaces/alphabot2_interfaces/msg/detail/obstacle__type_support.h\n'}
+[3.020429] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/include/alphabot2_interfaces/alphabot2_interfaces/msg/detail/obstacle__functions.h\n'}
+[3.023450] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/include/alphabot2_interfaces/alphabot2_interfaces/msg/detail/obstacle__functions.c\n'}
+[3.027706] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/alphabot2_interfaces/environment/library_path.sh\n'}
+[3.030201] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/alphabot2_interfaces/environment/library_path.dsv\n'}
+[3.032667] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/lib/libalphabot2_interfaces__rosidl_generator_c.so\n'}
+[3.035763] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/include/alphabot2_interfaces/alphabot2_interfaces\n'}
+[3.038508] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/include/alphabot2_interfaces/alphabot2_interfaces/msg\n'}
+[3.039080] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/include/alphabot2_interfaces/alphabot2_interfaces/msg/detail\n'}
+[3.039484] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/include/alphabot2_interfaces/alphabot2_interfaces/msg/detail/obstacle__rosidl_typesupport_fastrtps_c.h\n'}
+[3.040076] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/include/alphabot2_interfaces/alphabot2_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.040750] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/lib/libalphabot2_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[3.041185] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/include/alphabot2_interfaces/alphabot2_interfaces\n'}
+[3.041651] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/include/alphabot2_interfaces/alphabot2_interfaces/msg\n'}
+[3.042080] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/include/alphabot2_interfaces/alphabot2_interfaces/msg/detail\n'}
+[3.042476] (-) TimerEvent: {}
+[3.042923] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/include/alphabot2_interfaces/alphabot2_interfaces/msg/detail/obstacle__type_support.c\n'}
+[3.043824] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/include/alphabot2_interfaces/alphabot2_interfaces/msg/detail/obstacle__rosidl_typesupport_introspection_c.h\n'}
+[3.044551] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/include/alphabot2_interfaces/alphabot2_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.045300] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/lib/libalphabot2_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[3.045874] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/lib/libalphabot2_interfaces__rosidl_typesupport_c.so\n'}
+[3.048025] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/include/alphabot2_interfaces/alphabot2_interfaces\n'}
+[3.050417] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/include/alphabot2_interfaces/alphabot2_interfaces/msg\n'}
+[3.051100] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/include/alphabot2_interfaces/alphabot2_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[3.051647] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/include/alphabot2_interfaces/alphabot2_interfaces/msg/obstacle.hpp\n'}
+[3.052298] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/include/alphabot2_interfaces/alphabot2_interfaces/msg/detail\n'}
+[3.053235] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/include/alphabot2_interfaces/alphabot2_interfaces/msg/detail/obstacle__struct.hpp\n'}
+[3.053861] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/include/alphabot2_interfaces/alphabot2_interfaces/msg/detail/obstacle__traits.hpp\n'}
+[3.054395] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/include/alphabot2_interfaces/alphabot2_interfaces/msg/detail/obstacle__type_support.hpp\n'}
+[3.054885] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/include/alphabot2_interfaces/alphabot2_interfaces/msg/detail/obstacle__builder.hpp\n'}
+[3.055405] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/include/alphabot2_interfaces/alphabot2_interfaces\n'}
+[3.055906] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/include/alphabot2_interfaces/alphabot2_interfaces/msg\n'}
+[3.056636] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/include/alphabot2_interfaces/alphabot2_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.057167] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/include/alphabot2_interfaces/alphabot2_interfaces/msg/detail\n'}
+[3.058686] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/include/alphabot2_interfaces/alphabot2_interfaces/msg/detail/obstacle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.059392] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/include/alphabot2_interfaces/alphabot2_interfaces/msg/detail/dds_fastrtps\n'}
+[3.059919] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/lib/libalphabot2_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.060581] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/include/alphabot2_interfaces/alphabot2_interfaces\n'}
+[3.062358] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/include/alphabot2_interfaces/alphabot2_interfaces/msg\n'}
+[3.062973] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/include/alphabot2_interfaces/alphabot2_interfaces/msg/detail\n'}
+[3.063934] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/include/alphabot2_interfaces/alphabot2_interfaces/msg/detail/obstacle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.065112] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/include/alphabot2_interfaces/alphabot2_interfaces/msg/detail/obstacle__type_support.cpp\n'}
+[3.065935] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/lib/libalphabot2_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[3.066497] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/lib/libalphabot2_interfaces__rosidl_typesupport_cpp.so\n'}
+[3.066879] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/alphabot2_interfaces/environment/pythonpath.sh\n'}
+[3.067240] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/alphabot2_interfaces/environment/pythonpath.dsv\n'}
+[3.067651] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/local/lib/python3.10/dist-packages/alphabot2_interfaces-0.0.0-py3.10.egg-info\n'}
+[3.068031] (alphabot2_interfaces) StdoutLine: {'line': b'-- Installing: /home/leader/ros2_ws/install/alphabot2_interfaces/local/lib/python3.10/dist-packages/alphabot2_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.068542] (alphabot2_interfaces) StdoutLine: {'line': b'-- Installing: /home/leader/ros2_ws/install/alphabot2_interfaces/local/lib/python3.10/dist-packages/alphabot2_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.068892] (alphabot2_interfaces) StdoutLine: {'line': b'-- Installing: /home/leader/ros2_ws/install/alphabot2_interfaces/local/lib/python3.10/dist-packages/alphabot2_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.069217] (alphabot2_interfaces) StdoutLine: {'line': b'-- Installing: /home/leader/ros2_ws/install/alphabot2_interfaces/local/lib/python3.10/dist-packages/alphabot2_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.069542] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/local/lib/python3.10/dist-packages/alphabot2_interfaces\n'}
+[3.069965] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/local/lib/python3.10/dist-packages/alphabot2_interfaces/_alphabot2_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.070365] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/local/lib/python3.10/dist-packages/alphabot2_interfaces/alphabot2_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.070803] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/local/lib/python3.10/dist-packages/alphabot2_interfaces/_alphabot2_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.071227] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/local/lib/python3.10/dist-packages/alphabot2_interfaces/msg\n'}
+[3.071689] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/local/lib/python3.10/dist-packages/alphabot2_interfaces/msg/_obstacle.py\n'}
+[3.072334] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/local/lib/python3.10/dist-packages/alphabot2_interfaces/msg/__init__.py\n'}
+[3.072917] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/local/lib/python3.10/dist-packages/alphabot2_interfaces/msg/_obstacle_s.c\n'}
+[3.073379] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/local/lib/python3.10/dist-packages/alphabot2_interfaces/__init__.py\n'}
+[3.073812] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/local/lib/python3.10/dist-packages/alphabot2_interfaces/alphabot2_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.074209] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/local/lib/python3.10/dist-packages/alphabot2_interfaces/_alphabot2_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[3.074538] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/local/lib/python3.10/dist-packages/alphabot2_interfaces/libalphabot2_interfaces__rosidl_generator_py.so\n'}
+[3.074854] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/local/lib/python3.10/dist-packages/alphabot2_interfaces/alphabot2_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.142672] (-) TimerEvent: {}
+[3.197285] (alphabot2_interfaces) StdoutLine: {'line': b"Listing '/home/leader/ros2_ws/install/alphabot2_interfaces/local/lib/python3.10/dist-packages/alphabot2_interfaces'...\n"}
+[3.198853] (alphabot2_interfaces) StdoutLine: {'line': b"Listing '/home/leader/ros2_ws/install/alphabot2_interfaces/local/lib/python3.10/dist-packages/alphabot2_interfaces/msg'...\n"}
+[3.225248] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/local/lib/python3.10/dist-packages/alphabot2_interfaces/alphabot2_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.227813] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/local/lib/python3.10/dist-packages/alphabot2_interfaces/alphabot2_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.230461] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/local/lib/python3.10/dist-packages/alphabot2_interfaces/alphabot2_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.233300] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/lib/libalphabot2_interfaces__rosidl_generator_py.so\n'}
+[3.234722] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/ament_index/resource_index/rust_packages/alphabot2_interfaces\n'}
+[3.235389] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/alphabot2_interfaces/rust\n'}
+[3.236125] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/alphabot2_interfaces/rust/Cargo.toml\n'}
+[3.237013] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/alphabot2_interfaces/rust/src\n'}
+[3.237678] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/alphabot2_interfaces/rust/src/msg\n'}
+[3.248801] (-) TimerEvent: {}
+[3.250119] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/alphabot2_interfaces/rust/src/msg/rmw.rs\n'}
+[3.250771] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/alphabot2_interfaces/rust/src/msg.rs\n'}
+[3.256905] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/alphabot2_interfaces/rust/src/lib.rs\n'}
+[3.257491] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/alphabot2_interfaces/rust/build.rs\n'}
+[3.258349] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/alphabot2_interfaces/msg/Obstacle.idl\n'}
+[3.258976] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/alphabot2_interfaces/msg/Obstacle.msg\n'}
+[3.259521] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/ament_index/resource_index/package_run_dependencies/alphabot2_interfaces\n'}
+[3.260523] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/ament_index/resource_index/parent_prefix_path/alphabot2_interfaces\n'}
+[3.261123] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/alphabot2_interfaces/environment/ament_prefix_path.sh\n'}
+[3.261798] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/alphabot2_interfaces/environment/ament_prefix_path.dsv\n'}
+[3.262290] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/alphabot2_interfaces/environment/path.sh\n'}
+[3.262872] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/alphabot2_interfaces/environment/path.dsv\n'}
+[3.263351] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/alphabot2_interfaces/local_setup.bash\n'}
+[3.263978] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/alphabot2_interfaces/local_setup.sh\n'}
+[3.264829] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/alphabot2_interfaces/local_setup.zsh\n'}
+[3.265466] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/alphabot2_interfaces/local_setup.dsv\n'}
+[3.266249] (alphabot2_interfaces) StdoutLine: {'line': b'-- Installing: /home/leader/ros2_ws/install/alphabot2_interfaces/share/alphabot2_interfaces/package.dsv\n'}
+[3.267126] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/ament_index/resource_index/packages/alphabot2_interfaces\n'}
+[3.267826] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/alphabot2_interfaces/cmake/export_alphabot2_interfaces__rosidl_generator_cExport.cmake\n'}
+[3.268541] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/alphabot2_interfaces/cmake/export_alphabot2_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.269191] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/alphabot2_interfaces/cmake/export_alphabot2_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.269775] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/alphabot2_interfaces/cmake/export_alphabot2_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.270278] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/alphabot2_interfaces/cmake/alphabot2_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.270900] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/alphabot2_interfaces/cmake/alphabot2_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.271521] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/alphabot2_interfaces/cmake/alphabot2_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[3.272217] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/alphabot2_interfaces/cmake/alphabot2_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.272899] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/alphabot2_interfaces/cmake/export_alphabot2_interfaces__rosidl_generator_cppExport.cmake\n'}
+[3.273468] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/alphabot2_interfaces/cmake/export_alphabot2_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.273962] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/alphabot2_interfaces/cmake/export_alphabot2_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.274465] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/alphabot2_interfaces/cmake/alphabot2_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.275011] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/alphabot2_interfaces/cmake/alphabot2_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.275645] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/alphabot2_interfaces/cmake/alphabot2_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[3.276217] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/alphabot2_interfaces/cmake/alphabot2_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.276830] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/alphabot2_interfaces/cmake/export_alphabot2_interfaces__rosidl_generator_pyExport.cmake\n'}
+[3.277523] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/alphabot2_interfaces/cmake/export_alphabot2_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.278140] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/alphabot2_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[3.279143] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/alphabot2_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.280826] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/alphabot2_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.282688] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/alphabot2_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.289486] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/alphabot2_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.290394] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/alphabot2_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.291238] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/alphabot2_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.291906] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/alphabot2_interfaces/cmake/alphabot2_interfacesConfig.cmake\n'}
+[3.292688] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/alphabot2_interfaces/cmake/alphabot2_interfacesConfig-version.cmake\n'}
+[3.295133] (alphabot2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/leader/ros2_ws/install/alphabot2_interfaces/share/alphabot2_interfaces/package.xml\n'}
+[3.295706] (alphabot2_interfaces) CommandEnded: {'returncode': 0}
+[3.350784] (-) TimerEvent: {}
+[3.422520] (alphabot2_interfaces) JobEnded: {'identifier': 'alphabot2_interfaces', 'rc': 0}
+[3.428746] (alphabot2) JobStarted: {'identifier': 'alphabot2'}
+[3.451560] (-) TimerEvent: {}
+[3.552326] (-) TimerEvent: {}
+[3.653145] (-) TimerEvent: {}
+[3.754059] (-) TimerEvent: {}
+[3.854942] (-) TimerEvent: {}
+[3.956058] (-) TimerEvent: {}
+[4.056888] (-) TimerEvent: {}
+[4.158094] (-) TimerEvent: {}
+[4.259069] (-) TimerEvent: {}
+[4.359863] (-) TimerEvent: {}
+[4.461011] (-) TimerEvent: {}
+[4.561910] (-) TimerEvent: {}
+[4.662662] (-) TimerEvent: {}
+[4.763338] (-) TimerEvent: {}
+[4.864109] (-) TimerEvent: {}
+[4.967505] (-) TimerEvent: {}
+[5.068476] (-) TimerEvent: {}
+[5.169203] (-) TimerEvent: {}
+[5.269940] (-) TimerEvent: {}
+[5.370702] (-) TimerEvent: {}
+[5.471430] (-) TimerEvent: {}
+[5.572084] (-) TimerEvent: {}
+[5.672799] (-) TimerEvent: {}
+[5.773538] (-) TimerEvent: {}
+[5.874235] (-) TimerEvent: {}
+[5.974900] (-) TimerEvent: {}
+[6.075600] (-) TimerEvent: {}
+[6.176419] (-) TimerEvent: {}
+[6.277283] (-) TimerEvent: {}
+[6.378490] (-) TimerEvent: {}
+[6.402726] (alphabot2) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../../build/alphabot2', 'build', '--build-base', '/home/leader/ros2_ws/build/alphabot2/build', 'install', '--record', '/home/leader/ros2_ws/build/alphabot2/install.log', '--install-scripts', '$base/lib/alphabot2', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/leader/ros2_ws/src/alphabot2-ros2/alphabot2/alphabot2_leader', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'leader', 'SSH_CLIENT': '10.78.23.7 59030 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/leader/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/leader/ros2_ws/install/alphabot2_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/leader/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/leader', 'TERM_PROGRAM_VERSION': '1.113.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-53f7f30f-e173-46dd-8dfd-757f866a50db.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/leader/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/leader/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'leader', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/leader/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/leader/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/leader/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'fr_FR.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-aab1f15972.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/leader/ros2_ws/install/alphabot2_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/leader/ros2_ws/build/alphabot2', 'SSH_CONNECTION': '10.78.23.7 59030 10.78.23.14 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/leader/ros2_ws/build/alphabot2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leader/ros2_ws/install/alphabot2/lib/python3.10/site-packages:/home/leader/ros2_ws/install/alphabot2_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/leader/ros2_ws/install/alphabot2_interfaces'}, 'shell': False}
+[6.478648] (-) TimerEvent: {}
+[6.579339] (-) TimerEvent: {}
+[6.680086] (-) TimerEvent: {}
+[6.780800] (-) TimerEvent: {}
+[6.881488] (-) TimerEvent: {}
+[6.982246] (-) TimerEvent: {}
+[7.082926] (-) TimerEvent: {}
+[7.183563] (-) TimerEvent: {}
+[7.284239] (-) TimerEvent: {}
+[7.384890] (-) TimerEvent: {}
+[7.429220] (alphabot2) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[7.430040] (alphabot2) StderrLine: {'line': b'  warnings.warn(\n'}
+[7.463990] (alphabot2) StdoutLine: {'line': b'running egg_info\n'}
+[7.466783] (alphabot2) StdoutLine: {'line': b'writing ../../../../build/alphabot2/alphabot2_leader.egg-info/PKG-INFO\n'}
+[7.467965] (alphabot2) StdoutLine: {'line': b'writing dependency_links to ../../../../build/alphabot2/alphabot2_leader.egg-info/dependency_links.txt\n'}
+[7.469078] (alphabot2) StdoutLine: {'line': b'writing entry points to ../../../../build/alphabot2/alphabot2_leader.egg-info/entry_points.txt\n'}
+[7.469986] (alphabot2) StdoutLine: {'line': b'writing requirements to ../../../../build/alphabot2/alphabot2_leader.egg-info/requires.txt\n'}
+[7.470668] (alphabot2) StdoutLine: {'line': b'writing top-level names to ../../../../build/alphabot2/alphabot2_leader.egg-info/top_level.txt\n'}
+[7.478554] (alphabot2) StdoutLine: {'line': b"reading manifest file '../../../../build/alphabot2/alphabot2_leader.egg-info/SOURCES.txt'\n"}
+[7.482543] (alphabot2) StdoutLine: {'line': b"writing manifest file '../../../../build/alphabot2/alphabot2_leader.egg-info/SOURCES.txt'\n"}
+[7.483211] (alphabot2) StdoutLine: {'line': b'running build\n'}
+[7.483736] (alphabot2) StdoutLine: {'line': b'running build_py\n'}
+[7.484987] (-) TimerEvent: {}
+[7.487053] (alphabot2) StdoutLine: {'line': b'running install\n'}
+[7.488267] (alphabot2) StdoutLine: {'line': b'running install_lib\n'}
+[7.495856] (alphabot2) StdoutLine: {'line': b'running install_data\n'}
+[7.496779] (alphabot2) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.503967] (alphabot2) StdoutLine: {'line': b"removing '/home/leader/ros2_ws/install/alphabot2/lib/python3.10/site-packages/alphabot2_leader-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.505686] (alphabot2) StdoutLine: {'line': b'Copying ../../../../build/alphabot2/alphabot2_leader.egg-info to /home/leader/ros2_ws/install/alphabot2/lib/python3.10/site-packages/alphabot2_leader-0.0.0-py3.10.egg-info\n'}
+[7.511228] (alphabot2) StdoutLine: {'line': b'running install_scripts\n'}
+[7.585174] (-) TimerEvent: {}
+[7.600430] (alphabot2) StdoutLine: {'line': b'Installing IR_obstacle_sensors script to /home/leader/ros2_ws/install/alphabot2/lib/alphabot2\n'}
+[7.601657] (alphabot2) StdoutLine: {'line': b'Installing QR_detector script to /home/leader/ros2_ws/install/alphabot2/lib/alphabot2\n'}
+[7.602656] (alphabot2) StdoutLine: {'line': b'Installing leader script to /home/leader/ros2_ws/install/alphabot2/lib/alphabot2\n'}
+[7.603568] (alphabot2) StdoutLine: {'line': b'Installing motion_driver script to /home/leader/ros2_ws/install/alphabot2/lib/alphabot2\n'}
+[7.604584] (alphabot2) StdoutLine: {'line': b'Installing virtual_odometer script to /home/leader/ros2_ws/install/alphabot2/lib/alphabot2\n'}
+[7.606653] (alphabot2) StdoutLine: {'line': b"writing list of installed files to '/home/leader/ros2_ws/build/alphabot2/install.log'\n"}
+[7.686920] (-) TimerEvent: {}
+[7.738049] (alphabot2) CommandEnded: {'returncode': 0}
+[7.773221] (alphabot2) JobEnded: {'identifier': 'alphabot2', 'rc': 0}
+[7.776039] (-) EventReactorShutdown: {}

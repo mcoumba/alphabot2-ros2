@@ -1,0 +1,53 @@
+running egg_info
+creating ../../../../build/alphabot2/alphabot2_leader.egg-info
+writing ../../../../build/alphabot2/alphabot2_leader.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/alphabot2/alphabot2_leader.egg-info/dependency_links.txt
+writing entry points to ../../../../build/alphabot2/alphabot2_leader.egg-info/entry_points.txt
+writing requirements to ../../../../build/alphabot2/alphabot2_leader.egg-info/requires.txt
+writing top-level names to ../../../../build/alphabot2/alphabot2_leader.egg-info/top_level.txt
+writing manifest file '../../../../build/alphabot2/alphabot2_leader.egg-info/SOURCES.txt'
+reading manifest file '../../../../build/alphabot2/alphabot2_leader.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/alphabot2/alphabot2_leader.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/leader/ros2_ws/build/alphabot2/build
+creating /home/leader/ros2_ws/build/alphabot2/build/lib
+creating /home/leader/ros2_ws/build/alphabot2/build/lib/alphabot2_leader
+copying alphabot2_leader/obstacle_avoidance.py -> /home/leader/ros2_ws/build/alphabot2/build/lib/alphabot2_leader
+copying alphabot2_leader/IR_obstacle_sensors.py -> /home/leader/ros2_ws/build/alphabot2/build/lib/alphabot2_leader
+copying alphabot2_leader/__init__.py -> /home/leader/ros2_ws/build/alphabot2/build/lib/alphabot2_leader
+copying alphabot2_leader/virtual_odometer.py -> /home/leader/ros2_ws/build/alphabot2/build/lib/alphabot2_leader
+copying alphabot2_leader/motion_driver.py -> /home/leader/ros2_ws/build/alphabot2/build/lib/alphabot2_leader
+copying alphabot2_leader/leader.py -> /home/leader/ros2_ws/build/alphabot2/build/lib/alphabot2_leader
+copying alphabot2_leader/QR_detector.py -> /home/leader/ros2_ws/build/alphabot2/build/lib/alphabot2_leader
+running install
+running install_lib
+creating /home/leader/ros2_ws/install/alphabot2/lib/python3.10/site-packages/alphabot2_leader
+copying /home/leader/ros2_ws/build/alphabot2/build/lib/alphabot2_leader/obstacle_avoidance.py -> /home/leader/ros2_ws/install/alphabot2/lib/python3.10/site-packages/alphabot2_leader
+copying /home/leader/ros2_ws/build/alphabot2/build/lib/alphabot2_leader/IR_obstacle_sensors.py -> /home/leader/ros2_ws/install/alphabot2/lib/python3.10/site-packages/alphabot2_leader
+copying /home/leader/ros2_ws/build/alphabot2/build/lib/alphabot2_leader/__init__.py -> /home/leader/ros2_ws/install/alphabot2/lib/python3.10/site-packages/alphabot2_leader
+copying /home/leader/ros2_ws/build/alphabot2/build/lib/alphabot2_leader/virtual_odometer.py -> /home/leader/ros2_ws/install/alphabot2/lib/python3.10/site-packages/alphabot2_leader
+copying /home/leader/ros2_ws/build/alphabot2/build/lib/alphabot2_leader/motion_driver.py -> /home/leader/ros2_ws/install/alphabot2/lib/python3.10/site-packages/alphabot2_leader
+copying /home/leader/ros2_ws/build/alphabot2/build/lib/alphabot2_leader/leader.py -> /home/leader/ros2_ws/install/alphabot2/lib/python3.10/site-packages/alphabot2_leader
+copying /home/leader/ros2_ws/build/alphabot2/build/lib/alphabot2_leader/QR_detector.py -> /home/leader/ros2_ws/install/alphabot2/lib/python3.10/site-packages/alphabot2_leader
+byte-compiling /home/leader/ros2_ws/install/alphabot2/lib/python3.10/site-packages/alphabot2_leader/obstacle_avoidance.py to obstacle_avoidance.cpython-310.pyc
+byte-compiling /home/leader/ros2_ws/install/alphabot2/lib/python3.10/site-packages/alphabot2_leader/IR_obstacle_sensors.py to IR_obstacle_sensors.cpython-310.pyc
+byte-compiling /home/leader/ros2_ws/install/alphabot2/lib/python3.10/site-packages/alphabot2_leader/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/leader/ros2_ws/install/alphabot2/lib/python3.10/site-packages/alphabot2_leader/virtual_odometer.py to virtual_odometer.cpython-310.pyc
+byte-compiling /home/leader/ros2_ws/install/alphabot2/lib/python3.10/site-packages/alphabot2_leader/motion_driver.py to motion_driver.cpython-310.pyc
+byte-compiling /home/leader/ros2_ws/install/alphabot2/lib/python3.10/site-packages/alphabot2_leader/leader.py to leader.cpython-310.pyc
+byte-compiling /home/leader/ros2_ws/install/alphabot2/lib/python3.10/site-packages/alphabot2_leader/QR_detector.py to QR_detector.cpython-310.pyc
+running install_data
+copying resource/alphabot2_leader -> /home/leader/ros2_ws/install/alphabot2/share/ament_index/resource_index/packages
+creating /home/leader/ros2_ws/install/alphabot2/share/alphabot2_leader
+copying package.xml -> /home/leader/ros2_ws/install/alphabot2/share/alphabot2_leader
+copying launch/alphabot2_launch.py -> /home/leader/ros2_ws/install/alphabot2/share/alphabot2_leader
+running install_egg_info
+Copying ../../../../build/alphabot2/alphabot2_leader.egg-info to /home/leader/ros2_ws/install/alphabot2/lib/python3.10/site-packages/alphabot2_leader-0.0.0-py3.10.egg-info
+running install_scripts
+Installing IR_obstacle_sensors script to /home/leader/ros2_ws/install/alphabot2/lib/alphabot2
+Installing QR_detector script to /home/leader/ros2_ws/install/alphabot2/lib/alphabot2
+Installing leader script to /home/leader/ros2_ws/install/alphabot2/lib/alphabot2
+Installing motion_driver script to /home/leader/ros2_ws/install/alphabot2/lib/alphabot2
+Installing virtual_odometer script to /home/leader/ros2_ws/install/alphabot2/lib/alphabot2
+writing list of installed files to '/home/leader/ros2_ws/build/alphabot2/install.log'

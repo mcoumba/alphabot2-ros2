@@ -1,0 +1,57 @@
+[2.835s] Invoking command in '/home/leader/ros2_ws/src/alphabot2-ros2/alphabot2/alphabot2_leader': AMENT_PREFIX_PATH=/home/leader/ros2_ws/install/alphabot2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leader/ros2_ws/install/alphabot2_interfaces LD_LIBRARY_PATH=/home/leader/ros2_ws/install/alphabot2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/leader/ros2_ws/build/alphabot2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leader/ros2_ws/install/alphabot2/lib/python3.10/site-packages:/home/leader/ros2_ws/install/alphabot2_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/alphabot2 build --build-base /home/leader/ros2_ws/build/alphabot2/build install --record /home/leader/ros2_ws/build/alphabot2/install.log --install-scripts $base/lib/alphabot2 --single-version-externally-managed install_data
+[3.851s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[3.853s]   warnings.warn(
+[3.887s] running egg_info
+[3.889s] creating ../../../../build/alphabot2/alphabot2_leader.egg-info
+[3.890s] writing ../../../../build/alphabot2/alphabot2_leader.egg-info/PKG-INFO
+[3.892s] writing dependency_links to ../../../../build/alphabot2/alphabot2_leader.egg-info/dependency_links.txt
+[3.893s] writing entry points to ../../../../build/alphabot2/alphabot2_leader.egg-info/entry_points.txt
+[3.894s] writing requirements to ../../../../build/alphabot2/alphabot2_leader.egg-info/requires.txt
+[3.895s] writing top-level names to ../../../../build/alphabot2/alphabot2_leader.egg-info/top_level.txt
+[3.895s] writing manifest file '../../../../build/alphabot2/alphabot2_leader.egg-info/SOURCES.txt'
+[3.903s] reading manifest file '../../../../build/alphabot2/alphabot2_leader.egg-info/SOURCES.txt'
+[3.907s] writing manifest file '../../../../build/alphabot2/alphabot2_leader.egg-info/SOURCES.txt'
+[3.908s] running build
+[3.909s] running build_py
+[3.911s] creating /home/leader/ros2_ws/build/alphabot2/build
+[3.912s] creating /home/leader/ros2_ws/build/alphabot2/build/lib
+[3.913s] creating /home/leader/ros2_ws/build/alphabot2/build/lib/alphabot2_leader
+[3.914s] copying alphabot2_leader/obstacle_avoidance.py -> /home/leader/ros2_ws/build/alphabot2/build/lib/alphabot2_leader
+[3.914s] copying alphabot2_leader/IR_obstacle_sensors.py -> /home/leader/ros2_ws/build/alphabot2/build/lib/alphabot2_leader
+[3.915s] copying alphabot2_leader/__init__.py -> /home/leader/ros2_ws/build/alphabot2/build/lib/alphabot2_leader
+[3.916s] copying alphabot2_leader/virtual_odometer.py -> /home/leader/ros2_ws/build/alphabot2/build/lib/alphabot2_leader
+[3.916s] copying alphabot2_leader/motion_driver.py -> /home/leader/ros2_ws/build/alphabot2/build/lib/alphabot2_leader
+[3.918s] copying alphabot2_leader/leader.py -> /home/leader/ros2_ws/build/alphabot2/build/lib/alphabot2_leader
+[3.919s] copying alphabot2_leader/QR_detector.py -> /home/leader/ros2_ws/build/alphabot2/build/lib/alphabot2_leader
+[3.919s] running install
+[3.920s] running install_lib
+[3.923s] creating /home/leader/ros2_ws/install/alphabot2/lib/python3.10/site-packages/alphabot2_leader
+[3.924s] copying /home/leader/ros2_ws/build/alphabot2/build/lib/alphabot2_leader/obstacle_avoidance.py -> /home/leader/ros2_ws/install/alphabot2/lib/python3.10/site-packages/alphabot2_leader
+[3.925s] copying /home/leader/ros2_ws/build/alphabot2/build/lib/alphabot2_leader/IR_obstacle_sensors.py -> /home/leader/ros2_ws/install/alphabot2/lib/python3.10/site-packages/alphabot2_leader
+[3.926s] copying /home/leader/ros2_ws/build/alphabot2/build/lib/alphabot2_leader/__init__.py -> /home/leader/ros2_ws/install/alphabot2/lib/python3.10/site-packages/alphabot2_leader
+[3.926s] copying /home/leader/ros2_ws/build/alphabot2/build/lib/alphabot2_leader/virtual_odometer.py -> /home/leader/ros2_ws/install/alphabot2/lib/python3.10/site-packages/alphabot2_leader
+[3.927s] copying /home/leader/ros2_ws/build/alphabot2/build/lib/alphabot2_leader/motion_driver.py -> /home/leader/ros2_ws/install/alphabot2/lib/python3.10/site-packages/alphabot2_leader
+[3.928s] copying /home/leader/ros2_ws/build/alphabot2/build/lib/alphabot2_leader/leader.py -> /home/leader/ros2_ws/install/alphabot2/lib/python3.10/site-packages/alphabot2_leader
+[3.930s] copying /home/leader/ros2_ws/build/alphabot2/build/lib/alphabot2_leader/QR_detector.py -> /home/leader/ros2_ws/install/alphabot2/lib/python3.10/site-packages/alphabot2_leader
+[3.932s] byte-compiling /home/leader/ros2_ws/install/alphabot2/lib/python3.10/site-packages/alphabot2_leader/obstacle_avoidance.py to obstacle_avoidance.cpython-310.pyc
+[3.935s] byte-compiling /home/leader/ros2_ws/install/alphabot2/lib/python3.10/site-packages/alphabot2_leader/IR_obstacle_sensors.py to IR_obstacle_sensors.cpython-310.pyc
+[3.938s] byte-compiling /home/leader/ros2_ws/install/alphabot2/lib/python3.10/site-packages/alphabot2_leader/__init__.py to __init__.cpython-310.pyc
+[3.939s] byte-compiling /home/leader/ros2_ws/install/alphabot2/lib/python3.10/site-packages/alphabot2_leader/virtual_odometer.py to virtual_odometer.cpython-310.pyc
+[3.943s] byte-compiling /home/leader/ros2_ws/install/alphabot2/lib/python3.10/site-packages/alphabot2_leader/motion_driver.py to motion_driver.cpython-310.pyc
+[3.948s] byte-compiling /home/leader/ros2_ws/install/alphabot2/lib/python3.10/site-packages/alphabot2_leader/leader.py to leader.cpython-310.pyc
+[3.951s] byte-compiling /home/leader/ros2_ws/install/alphabot2/lib/python3.10/site-packages/alphabot2_leader/QR_detector.py to QR_detector.cpython-310.pyc
+[3.954s] running install_data
+[3.956s] copying resource/alphabot2_leader -> /home/leader/ros2_ws/install/alphabot2/share/ament_index/resource_index/packages
+[3.957s] creating /home/leader/ros2_ws/install/alphabot2/share/alphabot2_leader
+[3.958s] copying package.xml -> /home/leader/ros2_ws/install/alphabot2/share/alphabot2_leader
+[3.959s] copying launch/alphabot2_launch.py -> /home/leader/ros2_ws/install/alphabot2/share/alphabot2_leader
+[3.960s] running install_egg_info
+[3.967s] Copying ../../../../build/alphabot2/alphabot2_leader.egg-info to /home/leader/ros2_ws/install/alphabot2/lib/python3.10/site-packages/alphabot2_leader-0.0.0-py3.10.egg-info
+[3.975s] running install_scripts
+[4.056s] Installing IR_obstacle_sensors script to /home/leader/ros2_ws/install/alphabot2/lib/alphabot2
+[4.057s] Installing QR_detector script to /home/leader/ros2_ws/install/alphabot2/lib/alphabot2
+[4.058s] Installing leader script to /home/leader/ros2_ws/install/alphabot2/lib/alphabot2
+[4.059s] Installing motion_driver script to /home/leader/ros2_ws/install/alphabot2/lib/alphabot2
+[4.059s] Installing virtual_odometer script to /home/leader/ros2_ws/install/alphabot2/lib/alphabot2
+[4.061s] writing list of installed files to '/home/leader/ros2_ws/build/alphabot2/install.log'
+[4.186s] Invoked command in '/home/leader/ros2_ws/src/alphabot2-ros2/alphabot2/alphabot2_leader' returned '0': AMENT_PREFIX_PATH=/home/leader/ros2_ws/install/alphabot2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leader/ros2_ws/install/alphabot2_interfaces LD_LIBRARY_PATH=/home/leader/ros2_ws/install/alphabot2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/leader/ros2_ws/build/alphabot2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leader/ros2_ws/install/alphabot2/lib/python3.10/site-packages:/home/leader/ros2_ws/install/alphabot2_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/alphabot2 build --build-base /home/leader/ros2_ws/build/alphabot2/build install --record /home/leader/ros2_ws/build/alphabot2/install.log --install-scripts $base/lib/alphabot2 --single-version-externally-managed install_data

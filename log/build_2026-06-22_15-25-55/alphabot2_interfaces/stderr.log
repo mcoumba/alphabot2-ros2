@@ -1,0 +1,19 @@
+[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/ament_environment_hooks.cmake:60 (configure_file):
+  No such file or directory
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_python/cmake/ament_cmake_python-extras.cmake:36 (ament_environment_hooks)
+  /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:38 (_ament_cmake_python_register_environment_hook)
+  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:124 (ament_python_install_package)
+  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+  CMakeLists.txt:25 (rosidl_generate_interfaces)
+
+[0m
+[31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_cmake_export_typesupport_targets_package_hook.cmake:18 (configure_file):
+  No such file or directory
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+  CMakeLists.txt:40 (ament_package)
+
+[0m

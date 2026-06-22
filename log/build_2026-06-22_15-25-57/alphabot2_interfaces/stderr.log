@@ -1,0 +1,24 @@
+[31mCMake Error at /opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/cmake/rosidl_typesupport_fastrtps_cpp_generate_interfaces.cmake:107 (configure_file):
+  No such file or directory
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+  CMakeLists.txt:25 (rosidl_generate_interfaces)
+
+[0m
+[31mCMake Error at /opt/ros/humble/share/ament_cmake_export_include_directories/cmake/ament_cmake_export_include_directories_package_hook.cmake:23 (configure_file):
+  No such file or directory
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+  CMakeLists.txt:40 (ament_package)
+
+[0m
+[31mCMake Error at /opt/ros/humble/share/ament_cmake_export_libraries/cmake/ament_cmake_export_libraries_package_hook.cmake:23 (configure_file):
+  No such file or directory
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+  CMakeLists.txt:40 (ament_package)
+
+[0m

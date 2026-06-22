@@ -1,0 +1,27 @@
+[2.711s] Invoking command in '/home/leader/ros2_ws/src/alphabot2-ros2/alphabot2/alphabot2_leader': AMENT_PREFIX_PATH=/home/leader/ros2_ws/install/alphabot2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leader/ros2_ws/install/alphabot2_interfaces LD_LIBRARY_PATH=/home/leader/ros2_ws/install/alphabot2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/leader/ros2_ws/build/alphabot2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leader/ros2_ws/install/alphabot2/lib/python3.10/site-packages:/home/leader/ros2_ws/install/alphabot2_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/alphabot2 build --build-base /home/leader/ros2_ws/build/alphabot2/build install --record /home/leader/ros2_ws/build/alphabot2/install.log --install-scripts $base/lib/alphabot2 --single-version-externally-managed install_data
+[3.820s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[3.821s]   warnings.warn(
+[3.860s] running egg_info
+[3.863s] writing ../../../../build/alphabot2/alphabot2_leader.egg-info/PKG-INFO
+[3.864s] writing dependency_links to ../../../../build/alphabot2/alphabot2_leader.egg-info/dependency_links.txt
+[3.865s] writing entry points to ../../../../build/alphabot2/alphabot2_leader.egg-info/entry_points.txt
+[3.866s] writing requirements to ../../../../build/alphabot2/alphabot2_leader.egg-info/requires.txt
+[3.867s] writing top-level names to ../../../../build/alphabot2/alphabot2_leader.egg-info/top_level.txt
+[3.876s] reading manifest file '../../../../build/alphabot2/alphabot2_leader.egg-info/SOURCES.txt'
+[3.881s] writing manifest file '../../../../build/alphabot2/alphabot2_leader.egg-info/SOURCES.txt'
+[3.882s] running build
+[3.883s] running build_py
+[3.887s] running install
+[3.888s] running install_lib
+[3.897s] running install_data
+[3.898s] running install_egg_info
+[3.908s] removing '/home/leader/ros2_ws/install/alphabot2/lib/python3.10/site-packages/alphabot2_leader-0.0.0-py3.10.egg-info' (and everything under it)
+[3.910s] Copying ../../../../build/alphabot2/alphabot2_leader.egg-info to /home/leader/ros2_ws/install/alphabot2/lib/python3.10/site-packages/alphabot2_leader-0.0.0-py3.10.egg-info
+[3.917s] running install_scripts
+[4.005s] Installing IR_obstacle_sensors script to /home/leader/ros2_ws/install/alphabot2/lib/alphabot2
+[4.006s] Installing QR_detector script to /home/leader/ros2_ws/install/alphabot2/lib/alphabot2
+[4.007s] Installing leader script to /home/leader/ros2_ws/install/alphabot2/lib/alphabot2
+[4.008s] Installing motion_driver script to /home/leader/ros2_ws/install/alphabot2/lib/alphabot2
+[4.009s] Installing virtual_odometer script to /home/leader/ros2_ws/install/alphabot2/lib/alphabot2
+[4.012s] writing list of installed files to '/home/leader/ros2_ws/build/alphabot2/install.log'
+[4.143s] Invoked command in '/home/leader/ros2_ws/src/alphabot2-ros2/alphabot2/alphabot2_leader' returned '0': AMENT_PREFIX_PATH=/home/leader/ros2_ws/install/alphabot2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leader/ros2_ws/install/alphabot2_interfaces LD_LIBRARY_PATH=/home/leader/ros2_ws/install/alphabot2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/leader/ros2_ws/build/alphabot2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leader/ros2_ws/install/alphabot2/lib/python3.10/site-packages:/home/leader/ros2_ws/install/alphabot2_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/alphabot2 build --build-base /home/leader/ros2_ws/build/alphabot2/build install --record /home/leader/ros2_ws/build/alphabot2/install.log --install-scripts $base/lib/alphabot2 --single-version-externally-managed install_data

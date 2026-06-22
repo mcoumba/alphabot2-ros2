@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from alphabot2_interfaces/msg/Obstacle.msg
+// generated code does not contain a copyright notice
+
+
+module alphabot2_interfaces {
+  module msg {
+    struct Obstacle {
+      boolean left_obstacle;
+
+      boolean right_obstacle;
+    };
+  };
+};

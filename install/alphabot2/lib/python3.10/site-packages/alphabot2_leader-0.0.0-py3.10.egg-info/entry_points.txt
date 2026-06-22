@@ -1,0 +1,7 @@
+[console_scripts]
+IR_obstacle_sensors = alphabot2_leader.IR_obstacle_sensors:main
+QR_detector = alphabot2_leader.QR_detector:main
+leader = alphabot2_leader.leader:main
+motion_driver = alphabot2_leader.motion_driver:main
+virtual_odometer = alphabot2_leader.virtual_odometer:main
+

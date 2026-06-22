@@ -1,0 +1,8 @@
+setup.py
+alphabot2_interfaces/__init__.py
+alphabot2_interfaces.egg-info/PKG-INFO
+alphabot2_interfaces.egg-info/SOURCES.txt
+alphabot2_interfaces.egg-info/dependency_links.txt
+alphabot2_interfaces.egg-info/top_level.txt
+alphabot2_interfaces/msg/__init__.py
+alphabot2_interfaces/msg/_obstacle.py
