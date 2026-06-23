@@ -23,7 +23,7 @@ class Leader(Node):
         self.y = 0.0
         self.theta = 0.0
 
-        self.v = 0.2
+        self.v = 0.5
         self.w = 0.0
 
         self.timer = self.create_timer(self.dt,self.timer_callback) 
